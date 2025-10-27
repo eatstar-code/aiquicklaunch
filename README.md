@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ai-q.jpg" alt="AI QuickLaunch Logo" width="150"/>
+  <img src="ai-q.png" alt="AI QuickLaunch Logo" width="150"/>
 </p>
 
 # AI QuickLaunch (AI 퀵런처)
