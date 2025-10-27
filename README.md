@@ -2,7 +2,7 @@
   <img src="ai-q.png" alt="AI QuickLaunch Logo" width="150"/>
 </p>
 
-# AI QuickLaunch (AI 퀵런처)
+# AI QuickLaunch (AI 퀵런치)
 
 클릭 한 번으로 챗GPT, 제미니, 클로드 등 즐겨 찾는 모든 AI 서비스를 동시에 실행하는 최고의 생산성 도구입니다.
 
