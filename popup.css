@@ -1,0 +1,176 @@
+/* 기본 설정 */
+body {
+  width: 350px; /* 팝업창 크기 고정 */
+  font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  padding: 16px;
+}
+
+/* 헤더 */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* AI 리스트 */
+.ai-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  overflow: hidden; /* 자식 요소의 radius 적용을 위해 */
+}
+
+.ai-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+.ai-list-item:last-child {
+  border-bottom: none;
+}
+
+/* 드래그 핸들 (삼선) */
+.drag-handle {
+  cursor: grab;
+  margin-right: 12px;
+  font-size: 1.3em;
+  color: #aaa;
+}
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+/* 로고 및 이름 */
+.ai-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.ai-name {
+  flex-grow: 1; /* 이름이 남은 공간을 다 차지 */
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+}
+
+/* 토글 스위치 디자인 
+*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px; /* 너비 */
+  height: 28px; /* 높이 */
+  margin-left: 10px;
+  flex-shrink: 0; /* 크기 줄어들지 않게 */
+}
+.switch input { display: none; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #e04444; /* 꺼짐 (빨강) */
+  border-radius: 28px;
+  transition: .3s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px; /* 원 크기 */
+  width: 20px; /* 원 크기 */
+  left: 4px;   /* 여백 */
+  bottom: 4px; /* 여백 */
+  background-color: white;
+  border-radius: 50%;
+  transition: .3s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+/* 켜짐 (초록) */
+input:checked + .slider {
+  background-color: #28a745;
+}
+input:checked + .slider:before {
+  transform: translateX(22px); /* 원 이동 거리 */
+}
+
+/* 버튼 스타일 */
+.toggle-other-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background-color: #e9ecef;
+  color: #495057;
+  margin-bottom: 12px;
+}
+.toggle-other-button:hover {
+  background-color: #dee2e6;
+}
+
+/* (신규) 탭 고정 체크박스 래퍼 */
+.pin-option-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 4px;
+}
+.pin-option-wrapper input[type="checkbox"] {
+  margin-right: 8px;
+  cursor: pointer;
+  /* (선택) 체크박스 크기를 조금 키우기 */
+  width: 16px;
+  height: 16px;
+}
+.pin-option-wrapper label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+/* 실행 버튼 */
+.launch-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background-color: #007bff;
+  color: white;
+}
+.launch-button:hover {
+  background-color: #0056b3;
+}
+
+/* 기타 LLM 숨김 처리 */
+.hidden {
+  display: none;
+}

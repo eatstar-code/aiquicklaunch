@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title" id="popupTitleElement"></h1>
+    </div>
+
+    <ul id="major-list" class="ai-list">
+      </ul>
+
+    <button id="toggle-other-llms" class="toggle-other-button">
+    </button>
+
+    <ul id="other-list" class="ai-list hidden">
+      </ul>
+
+    <div class="pin-option-wrapper">
+      <input type="checkbox" id="pinTabsCheckbox">
+      <label for="pinTabsCheckbox" id="pinTabsLabelElement"></label>
+    </div>
+
+    <button id="launchButton" class="launch-button">
+    </button>
+  </div>
+
+  <script src="Sortable.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
