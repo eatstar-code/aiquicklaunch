@@ -1,0 +1,38 @@
+{
+  "appName": {
+    "message": "AI QuickLaunch",
+    "description": "The name of the extension."
+  },
+  "appDesc": {
+    "message": "클릭 한 번으로 여러 GPT 및 LLM 서비스를 동시에 실행합니다.",
+    "description": "The description of the extension."
+  },
+  "popupTitle": {
+    "message": "AI QuickLaunch",
+    "description": "The title in the popup header."
+  },
+  "launchButton": {
+    "message": "선택한 AI 실행",
+    "description": "Text for the main launch button."
+  },
+  "toggleOtherButtonShow": {
+    "message": "기타 LLM 목록 보기",
+    "description": "Text to show the other LLMs."
+  },
+  "toggleOtherButtonHide": {
+    "message": "기타 LLM 목록 숨기기",
+    "description": "Text to hide the other LLMs."
+  },
+  "dragHandleTitle": {
+    "message": "드래그해서 순서 변경",
+    "description": "Tooltip title for the drag handle."
+  },
+  "llmNameWrtn": {
+    "message": "Wrtn (뤼튼)",
+    "description": "Name for Wrtn service."
+  },
+  "pinTabsCheckboxLabel": {
+    "message": "탭 고정으로 실행",
+    "description": "Label for the pin tabs checkbox."
+  }
+}

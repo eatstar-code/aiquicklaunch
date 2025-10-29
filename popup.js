@@ -5,20 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // 메이저
     { id: 'chatgpt', name: 'ChatGPT', url: 'https://chat.openai.com/', logo: 'logos/chatgpt.svg', isMajor: true, defaultOn: true },
     { id: 'gemini', name: 'Google Gemini', url: 'https://gemini.google.com/', logo: 'logos/gemini.webp', isMajor: true, defaultOn: true },
-    { id: 'copilot', name: 'MS Copilot', url: 'https://copilot.microsoft.com/', logo: 'logos/copilot.svg', isMajor: true, defaultOn: true },
-    { id: 'grok', name: 'Grok', url: 'https://grok.com/', logo: 'logos/grok.svg', isMajor: true, defaultOn: false },
+    { id: 'grok', name: 'Grok', url: 'https://grok.com/', logo: 'logos/grok.svg', isMajor: true, defaultOn: true },
     { id: 'claude', name: 'Claude', url: 'https://claude.ai/', logo: 'logos/claude.svg', isMajor: true, defaultOn: true },
-    { id: 'perplexity', name: 'Perplexity', url: 'https://www.perplexity.ai/', logo: 'logos/perplexity.svg', isMajor: true, defaultOn: false },
-    { id: 'wrtn', nameKey: 'llmNameWrtn', url: 'https://wrtn.ai/', logo: 'logos/wrtn.svg', isMajor: true, defaultOn: false }, // i18n(nameKey) 유지
+    { id: 'perplexity', name: 'Perplexity', url: 'https://www.perplexity.ai/', logo: 'logos/perplexity.png', isMajor: true, defaultOn: false },
+    { id: 'copilot', name: 'MS Copilot', url: 'https://copilot.microsoft.com/', logo: 'logos/copilot.svg', isMajor: true, defaultOn: false },
+    { id: 'minimax', name: 'minimax', url: 'https://agent.minimax.io/', logo: 'logos/minimax.svg', isMajor: true, defaultOn: false },
+    { id: 'deepseek', name: 'DeepSeek', url: 'https://chat.deepseek.com/', logo: 'logos/deepseek.svg', isMajor: true, defaultOn: false },
     // 기타
-    { id: 'deepseek', name: 'DeepSeek', url: 'https://chat.deepseek.com/', logo: 'logos/deepseek.svg', isMajor: false, defaultOn: false },
-    { id: 'kimi', name: 'Kimi', url: 'https://kimi.moonshot.cn/', logo: 'logos/kimi.webp', isMajor: false, defaultOn: false },
     { id: 'qwen', name: 'Qwen', url: 'https://qwen.ai/', logo: 'logos/qwen.webp', isMajor: false, defaultOn: false },
-    { id: 'lechat', name: 'Le Chat', url: 'https://chat.mistral.ai/', logo: 'logos/lechat.svg', isMajor: false, defaultOn: false },
+    { id: 'zai', name: 'Z.ai (GLM)', url: 'https://chat.z.ai/', logo: 'logos/zai.svg', isMajor: false, defaultOn: false },
+    { id: 'lechat', name: 'Le Chat', url: 'https://chat.mistral.ai/', logo: 'logos/mistral.png', isMajor: false, defaultOn: false },
+    { id: 'wrtn', nameKey: 'llmNameWrtn', url: 'https://wrtn.ai/', logo: 'logos/wrtn.svg', isMajor: false, defaultOn: false }, // i18n(nameKey) 유지
     { id: 'clovax', name: 'CLOVA X', url: 'https://clova-x.naver.com/', logo: 'logos/clovax.svg', isMajor: false, defaultOn: false },
-    { id: 'pi', name: 'Pi', url: 'https://pi.ai/', logo: 'logos/pi.webp', isMajor: false, defaultOn: false },
+    { id: 'kimi', name: 'Kimi', url: 'https://kimi.moonshot.cn/', logo: 'logos/kimi.webp', isMajor: false, defaultOn: false },
     { id: 'goover', name: 'goover', url: 'https://goover.ai/', logo: 'logos/goover.png', isMajor: false, defaultOn: false },
-    { id: 'upstage', name: 'Upstage', url: 'https://console.upstage.ai/', logo: 'logos/upstage.svg', isMajor: false, defaultOn: false },
+    { id: 'upstage', name: 'Upstage', url: 'https://console.upstage.ai/playground/chat', logo: 'logos/upstage.svg', isMajor: false, defaultOn: false },
   ];
 
   // 2. HTML 요소 가져오기

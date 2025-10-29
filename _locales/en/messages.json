@@ -1,0 +1,38 @@
+{
+  "appName": {
+    "message": "AI QuickLaunch",
+    "description": "The name of the extension."
+  },
+  "appDesc": {
+    "message": "Launch multiple GPT & LLM services with a single click.",
+    "description": "The description of the extension."
+  },
+  "popupTitle": {
+    "message": "AI QuickLaunch",
+    "description": "The title in the popup header."
+  },
+  "launchButton": {
+    "message": "Launch Selected AIs",
+    "description": "Text for the main launch button."
+  },
+  "toggleOtherButtonShow": {
+    "message": "Show Other LLMs",
+    "description": "Text to show the other LLMs."
+  },
+  "toggleOtherButtonHide": {
+    "message": "Hide Other LLMs",
+    "description": "Text to hide the other LLMs."
+  },
+  "dragHandleTitle": {
+    "message": "Drag to reorder",
+    "description": "Tooltip title for the drag handle."
+  },
+  "llmNameWrtn": {
+    "message": "Wrtn",
+    "description": "Name for Wrtn service."
+  },
+  "pinTabsCheckboxLabel": {
+    "message": "Launch as pinned tabs",
+    "description": "Label for the pin tabs checkbox."
+  }
+}
