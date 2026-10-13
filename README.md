@@ -35,7 +35,7 @@ AI QuickLaunch는 주요 브라우저 스토어에서 다운로드할 수 있습
 * **Chrome (크롬 웹스토어):** [설치하기](https://chromewebstore.google.com/detail/ai-quicklaunch/ekgdlllgbadbekaaafafgbaempgolioj)
 * **MS Edge (엣지 애드온):** [설치하기](https://microsoftedge.microsoft.com/addons/detail/ai-quicklaunch/pcfjlfndliinppdckgmklfkncpjigike)
 * **Firefox (파이어폭스 애드온):** [설치하기](https://addons.mozilla.org/ko/firefox/addon/ai-quicklaunch/)
-* **Whale (웨일 스토어):** [설치 링크 추가 예정]
+* **Whale (웨일 스토어):** [설치하기](https://store.whale.naver.com/detail/jomobjikncpicjefnhhklmfjnhmpafcg)
 
 ## ✉️ 문의 (Contact)
 
