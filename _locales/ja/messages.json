@@ -1,0 +1,38 @@
+{
+  "appName": {
+    "message": "AI QuickLaunch",
+    "description": "The name of the extension."
+  },
+  "appDesc": {
+    "message": "ワンクリックで複数のGPTとLLMサービスを同時に起動します。",
+    "description": "The description of the extension."
+  },
+  "popupTitle": {
+    "message": "AI QuickLaunch",
+    "description": "The title in the popup header."
+  },
+  "launchButton": {
+    "message": "選択したAIを実行",
+    "description": "Text for the main launch button."
+  },
+  "toggleOtherButtonShow": {
+    "message": "その他のLLMを表示",
+    "description": "Text to show the other LLMs."
+  },
+  "toggleOtherButtonHide": {
+    "message": "その他のLLMを非表示",
+    "description": "Text to hide the other LLMs."
+  },
+  "dragHandleTitle": {
+    "message": "ドラッグして順序を変更",
+    "description": "Tooltip title for the drag handle."
+  },
+  "llmNameWrtn": {
+    "message": "Wrtn",
+    "description": "Name for Wrtn service."
+  },
+  "pinTabsCheckboxLabel": {
+    "message": "タブを固定して実行",
+    "description": "Label for the pin tabs checkbox."
+  }
+}
