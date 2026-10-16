@@ -11,6 +11,18 @@
     "message": "AI QuickLaunch",
     "description": "The title in the popup header."
   },
+  "sectionFoundation": {
+    "message": "Foundation Models",
+    "description": "Subheader for primary foundation models."
+  },
+  "sectionService": {
+    "message": "AI Search & Services",
+    "description": "Subheader for AI search and wrapper services."
+  },
+  "sectionOtherFoundation": {
+    "message": "Other Foundation Models",
+    "description": "Subheader for secondary/other models."
+  },
   "launchButton": {
     "message": "Launch Selected AIs",
     "description": "Text for the main launch button."
@@ -27,12 +39,12 @@
     "message": "Drag to reorder",
     "description": "Tooltip title for the drag handle."
   },
-  "llmNameWrtn": {
-    "message": "Wrtn",
-    "description": "Name for Wrtn service."
-  },
   "pinTabsCheckboxLabel": {
     "message": "Launch as pinned tabs",
     "description": "Label for the pin tabs checkbox."
+  },
+  "noSelectionAlert": {
+    "message": "Please select at least one AI service to launch.",
+    "description": "Alert message when no service is toggled on."
   }
 }
