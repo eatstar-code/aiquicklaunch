@@ -1,38 +1,50 @@
 {
   "appName": {
     "message": "AI QuickLaunch",
-    "description": "The name of the extension."
+    "description": "확장 프로그램 이름"
   },
   "appDesc": {
-    "message": "클릭 한 번으로 여러 GPT 및 LLM 서비스를 동시에 실행합니다.",
-    "description": "The description of the extension."
+    "message": "원클릭으로 여러 AI 및 LLM 서비스를 동시에 실행합니다.",
+    "description": "확장 프로그램 설명"
   },
   "popupTitle": {
     "message": "AI QuickLaunch",
-    "description": "The title in the popup header."
+    "description": "팝업 헤더 제목"
+  },
+  "sectionFoundation": {
+    "message": "파운데이션 모델",
+    "description": "메이저 파운데이션 모델 소제목"
+  },
+  "sectionService": {
+    "message": "AI 검색 및 서비스",
+    "description": "검색 및 래퍼 서비스 소제목"
+  },
+  "sectionOtherFoundation": {
+    "message": "기타 파운데이션 모델",
+    "description": "기타 모델 소제목"
   },
   "launchButton": {
-    "message": "선택한 AI 실행",
-    "description": "Text for the main launch button."
+    "message": "선택한 AI 실행하기",
+    "description": "실행 버튼 텍스트"
   },
   "toggleOtherButtonShow": {
-    "message": "기타 LLM 목록 보기",
-    "description": "Text to show the other LLMs."
+    "message": "기타 LLM 보기",
+    "description": "기타 LLM 펼치기 텍스트"
   },
   "toggleOtherButtonHide": {
-    "message": "기타 LLM 목록 숨기기",
-    "description": "Text to hide the other LLMs."
+    "message": "기타 LLM 접기",
+    "description": "기타 LLM 숨기기 텍스트"
   },
   "dragHandleTitle": {
-    "message": "드래그해서 순서 변경",
-    "description": "Tooltip title for the drag handle."
-  },
-  "llmNameWrtn": {
-    "message": "Wrtn (뤼튼)",
-    "description": "Name for Wrtn service."
+    "message": "드래그하여 순서 변경",
+    "description": "드래그 핸들 툴팁"
   },
   "pinTabsCheckboxLabel": {
-    "message": "탭 고정으로 실행",
-    "description": "Label for the pin tabs checkbox."
+    "message": "고정 탭으로 열기",
+    "description": "고정 탭 체크박스 라벨"
+  },
+  "noSelectionAlert": {
+    "message": "실행할 AI 서비스를 하나 이상 선택해 주세요.",
+    "description": "선택된 AI가 없을 때 경고창 문구"
   }
 }
