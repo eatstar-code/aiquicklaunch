@@ -31,7 +31,7 @@ AI QuickLaunch는 단순히 탭을 여는 도구가 아닙니다.
 ## 📦 설치하기 (Download)
 
 AI QuickLaunch는 주요 브라우저 스토어에서 다운로드할 수 있습니다.
-또는 버전별 데모를 사이트에서 직접 체험해보세요! [체험하기](https://eatstar.kr/aiquicklaunch)
+또는 버전별 데모를 사이트에서 직접 체험해보세요!<br>[체험하기](https://eatstar.kr/aiquicklaunch)
 
 * **Chrome (크롬 웹스토어):** [설치하기](https://chromewebstore.google.com/detail/ai-quicklaunch/ekgdlllgbadbekaaafafgbaempgolioj)
 * **MS Edge (엣지 애드온):** [설치하기](https://microsoftedge.microsoft.com/addons/detail/ai-quicklaunch/pcfjlfndliinppdckgmklfkncpjigike)
